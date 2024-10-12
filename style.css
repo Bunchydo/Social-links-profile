@@ -1,0 +1,88 @@
+@font-face {
+    font-family: 'Inter';
+    src: url(assets/fonts/Inter-VariableFont_slnt\,wght.ttf);
+}
+
+body{
+    background-color: black;
+    
+}
+
+.Main-Container{
+    background-color: #1F1F1F;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+    max-width: 450px;
+    height: 700px;
+    
+    justify-content: space-evenly;
+    align-items: center;
+    font-family: 'Inter';
+    border-radius: 20px;
+}
+.Main-Container p{
+    
+    margin: 0px;
+    margin-top: -55px;
+    
+    color: #E3E3E3;
+}
+
+.profile-picture img{
+    border-radius: 50%;
+    width: 120px;
+    margin-top: 10px;
+}
+
+.Main-Container h2{
+    text-align: center;
+    line-height: 40px;
+    margin: 0px;
+    letter-spacing: 1px;
+   
+}
+
+.Main-Container h2 span{
+    font-size: 15px;
+    color: #C6F139;
+   
+}
+    
+ 
+.Link-Options li{
+    text-decoration: none;
+    list-style: none;
+    background-color: #333333;
+    line-height: 30px;
+    margin-bottom: 18px;
+    border-radius: 10px;
+    text-align: center;
+    
+     
+    height: 35px;
+
+    align-content: center;
+    justify-content: center;
+    padding: 7px;
+    font-weight: 600;
+}
+
+.Link-Options li:hover {
+background-color: #C6F139;
+color: black;
+font-family: 'Inter';
+font-size: 16px;
+font-weight: 600;
+
+}
+
+ol.Link-Options{
+    padding: 0px;
+    width: 80%;
+}
